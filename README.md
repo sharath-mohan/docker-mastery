@@ -9,9 +9,15 @@ This repo is a living document of my progress, containing:
 - **Core Concepts**: Understanding images, containers, and layers.
 - **Workflow**: Dockerfiles, image building, and registry management.
 - **Networking**: Bridging, host, and overlay networks.
-- **Persistence**: Volumes and bind mounts.
+- **Persistence**: [Volumes and bind mounts](./docker_volumes/README.md).
 - **Orchestration**: Docker Compose and basic Swarm/K8s concepts.
 - **Best Practices**: Security, optimization, and multi-stage builds.
+
+## 📂 Modules
+
+Explore detailed notes and examples for each topic:
+
+- 💾 [**Docker Volumes & Data**](./docker_volumes/) - Data persistence, bind mounts, and volumes.
 
 ## 🗺️ Learning Roadmap
 
@@ -31,8 +37,8 @@ This repo is a living document of my progress, containing:
 
 ### 3. Data Management
 
-- [ ] Bind Mounts vs Volumes
-- [ ] Persistence Strategies
+- [x] [Bind Mounts vs Volumes](./docker_volumes/README.md)
+- [x] [Persistence Strategies](./docker_volumes/README.md)
 - [ ] Backing up and Restoring Data
 
 ### 4. Networking
