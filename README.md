@@ -6,8 +6,8 @@ Welcome to my **Docker Mastery** journey! This repository serves as a comprehens
 
 This repo is a living document of my progress, containing:
 
-- **Core Concepts**: Understanding images, containers, and layers.
-- **Workflow**: Dockerfiles, image building, and registry management.
+- **Core Concepts**: [Understanding images, containers, and layers](./docker_basics/README.md).
+- **Workflow**: [Dockerfiles, image building, and registry management](./docker_basics/README.md).
 - **Networking**: Bridging, host, and overlay networks.
 - **Persistence**: [Volumes and bind mounts](./docker_volumes/README.md).
 - **Orchestration**: Docker Compose and basic Swarm/K8s concepts.
@@ -17,23 +17,24 @@ This repo is a living document of my progress, containing:
 
 Explore detailed notes and examples for each topic:
 
+- 🛠️ [**Docker Basics**](./docker_basics/) - Core concepts, CLI essentials, and sample apps.
 - 💾 [**Docker Volumes & Data**](./docker_volumes/) - Data persistence, bind mounts, and volumes.
 
 ## 🗺️ Learning Roadmap
 
 ### 1. The Basics
 
-- [ ] What is a Container?
-- [ ] Installing Docker & Setup
-- [ ] The Docker CLI Essentials
-- [ ] Working with Images (`pull`, `push`, `build`)
+- [x] [What is a Container?](./docker_basics/README.md)
+- [x] Installing Docker & Setup
+- [x] [The Docker CLI Essentials](./docker_basics/README.md)
+- [x] [Working with Images](./docker_basics/README.md) (`pull`, `push`, `build`)
 
 ### 2. Deep Dive: Dockerfiles
 
-- [ ] Instruction Sets (`FROM`, `RUN`, `CMD`, `ENTRYPOINT`)
+- [x] [Instruction Sets](./docker_basics/sample_fast_api_app/README.md) (`FROM`, `RUN`, `CMD`, `ENTRYPOINT`)
 - [ ] Layer Caching & Optimization
-- [ ] Multi-stage Builds
-- [ ] Environment Variables & Args
+- [ ] Multi-stage Builds (Partial - see FastAPI app)
+- [x] [Environment Variables & Args](./docker_basics/sample_fast_api_app/README.md)
 
 ### 3. Data Management
 
