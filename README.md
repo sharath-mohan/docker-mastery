@@ -19,6 +19,7 @@ Explore detailed notes and examples for each topic:
 
 - 🛠️ [**Docker Basics**](./docker_basics/) - Core concepts, CLI essentials, and sample apps.
 - 💾 [**Docker Volumes & Data**](./docker_volumes/) - Data persistence, bind mounts, and volumes.
+- 🚀 [**Docker Entrypoint**](./docker_entrypoint/) - Understanding ENTRYPOINT vs CMD and executable images.
 
 ## 🗺️ Learning Roadmap
 
@@ -31,7 +32,9 @@ Explore detailed notes and examples for each topic:
 
 ### 2. Deep Dive: Dockerfiles
 
-- [x] [Instruction Sets](./docker_basics/sample_fast_api_app/README.md) (`FROM`, `RUN`, `CMD`, `ENTRYPOINT`)
+- [x] [Instruction Sets](./docker_basics/sample_fast_api_app/README.md) (`FROM`, `RUN`)
+- [x] [ENTRYPOINT vs CMD](./docker_entrypoint/README.md)
+
 - [ ] Layer Caching & Optimization
 - [ ] Multi-stage Builds (Partial - see FastAPI app)
 - [x] [Environment Variables & Args](./docker_basics/sample_fast_api_app/README.md)
