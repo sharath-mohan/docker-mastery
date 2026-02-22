@@ -1,0 +1,28 @@
+version: "3.8"
+
+services:
+  postgres:
+    image: postgres:alpine3.22
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_PASSWORD=mysecretpassword
+      - POSTGRES_DB=my_db
+      - POSTGRES_USER=admin
+  fastapi:
+    build: ./fast-api-app
+    ports:
+      - "8000:8000"
+    depends_on:
+      - postgres
+    environment:
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_NAME=my_db
+      - DB_USER=admin
+      - DB_PASSWORD=mysecretpassword
+    volumes:
+      - ./fast-api-app:/app
+    command: uv run uvicorn main:app --reload --host 0.0.0.0 --port 8000
+volumes:
+  postgres_data:

@@ -20,6 +20,7 @@ Explore detailed notes and examples for each topic:
 - 🛠️ [**Docker Basics**](./docker_basics/) - Core concepts, CLI essentials, and sample apps.
 - 💾 [**Docker Volumes & Data**](./docker_volumes/) - Data persistence, bind mounts, and volumes.
 - 🚀 [**Docker Entrypoint**](./docker_entrypoint/) - Understanding ENTRYPOINT vs CMD and executable images.
+- 🐙 [**Docker Compose**](./docker_compose/) - Multi-container orchestration and full-stack examples.
 
 ## 🗺️ Learning Roadmap
 
@@ -54,8 +55,8 @@ Explore detailed notes and examples for each topic:
 
 ### 5. Docker Compose
 
-- [ ] Writing `docker-compose.yml`
-- [ ] Managing Multi-Container Apps
+- [x] [Writing `docker-compose.yml`](./docker_compose/README.md)
+- [x] [Managing Multi-Container Apps](./docker_compose/fast-api-postgres.yml)
 - [ ] Environment Files
 - [ ] Overrides and Profiles
 
